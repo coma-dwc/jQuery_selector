@@ -3,7 +3,7 @@
     let $selected = [];
 
     //ここにセレクタを書く
-    $selected = $(".parent, .child > .child");
+    $selected = $("label span:hidden");
 
     //マッチした要素にスタイルを付与する
     $selected.each(function(index) {
