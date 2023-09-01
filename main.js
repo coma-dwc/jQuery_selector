@@ -3,7 +3,7 @@
     let $selected = [];
 
     //ここにセレクタを書く
-    $selected = $(":disabled");
+    $selected = $(".parent, .child > .child");
 
     //マッチした要素にスタイルを付与する
     $selected.each(function(index) {

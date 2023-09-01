@@ -12,70 +12,19 @@
   </head>
   <body>
     <p class="count-container">選択された要素の数は<span class="count"></span>個です。</p>
-    <div class="container">
-      <label>
-        <p>Input</p>
-        <input type="text">
-        <input type="text" disabled value="disabled">
-        <input type="text">
-      </label>
-      <label>
-        <p>Checkbox</p>
-        <input type="checkbox">
-        <input type="checkbox" checked>
-        <input type="checkbox">
-      </label>
-      <label>
-        <p>Radio</p>
-        <input type="radio" name="radio">
-        <input type="radio" name="radio" checked>
-        <input type="radio" name="radio">
-      </label>
-      <!--<label>-->
-      <!--  <input type="file">-->
-      <!--  input type file-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="hidden">-->
-      <!--  input type file-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="image">-->
-      <!--  input type image-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="password">-->
-      <!--  input type password-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="reset">-->
-      <!--  input type reset-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="submit">-->
-      <!--  input type submit-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  <input type="button" value="Input Button">-->
-      <!--  input type button-->
-      <!--</label>-->
-      <label>
-        <p>Select</p>
-        <select multiple size="4">
-          <option>Option</option>
-          <option selected>Option</option>
-          <option selected>Option</option>
-          <option>Option</option>
-        </select>
-      </label>
-      <!--<label>-->
-      <!--  textarea-->
-      <!--  <textarea></textarea>-->
-      <!--</label>-->
-      <!--<label>-->
-      <!--  button-->
-      <!--  <button>Button</button>-->
-      <!--</label>-->
+    <div class="parent">
+      parent
+      <div class="child">child</div>
+      <div class="child">
+        child
+        <div class="child">child</div>
+      </div>
+      <div class="child">child</div>
     </div>
+    <div class="child">
+      child
+      <div class="child">child</div>
+    </div>
+    <div class="parent">parent</div>
   </body>
 </html>
