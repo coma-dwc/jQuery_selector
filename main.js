@@ -3,7 +3,7 @@
     let $selected = [];
 
     //ここにセレクタを書く
-    $selected = $("div:eq(2)");
+    $selected = $("[data-name='brian'][data-age='26']");
 
     //マッチした要素にスタイルを付与する
     $selected.each(function(index) {
